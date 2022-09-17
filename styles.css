@@ -1,0 +1,60 @@
+*{
+   top: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+.heading-1{
+    background-color: #ccc;
+    height: 100px;
+}
+
+.name-heading{
+    line-height: 100px;
+    margin-left: 12px;
+}
+
+.menu{
+    margin: 0;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    overflow: hidden;
+}
+
+.menu li{ 
+    font-size: 20px;
+    padding: 3px;
+    float: left;
+    margin-left: 10px;
+    list-style-type: none;
+    border-right: 2px solid white;
+}
+
+.all-contents{
+    display: flex;
+}
+
+.content-1{
+    margin-left: 50px;
+}
+
+.content-1 img{
+    height: 200px;
+    width: 250px;
+}
+
+.content-2 h2{
+    width: 150px;
+    font-size: 20px;
+}
+
+.content-2 li{
+    margin-left: 30px;
+}
+
+.content-2{
+    margin-right: 50px;
+}
+
+
